@@ -1,0 +1,5 @@
+fuzzywuzzy
+numpy
+scikit-learn
+nltk
+tkinter

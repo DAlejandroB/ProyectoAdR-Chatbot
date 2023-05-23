@@ -1,0 +1,49 @@
+{
+  "intenciones": [
+    {
+      "etiqueta": "saludo",
+      "patrones": ["Hola", "¿Qué tal?", "Buen día"],
+      "respuestas": ["¡Hola!", "¡Hola, bienvenido!", "¿En qué puedo ayudarte?"]
+    },
+    {
+      "etiqueta": "solicitud_menu",
+      "patrones": ["¿Cuál es el menú del día?", "¿Qué hay para comer?", "Quiero ver el menú"],
+      "respuestas": ["Nuestro menú del día incluye...", "Hoy tenemos varias opciones deliciosas. Te puedo mostrar el menú.", "Estas son las opciones disponibles en nuestro menú."]
+    },
+    {
+      "etiqueta": "reclamo",
+      "patrones": ["Tengo un reclamo", "No estoy satisfecho con el servicio", "Quiero hablar con el gerente"],
+      "respuestas": ["Lamentamos cualquier inconveniente. Por favor, proporciónanos más detalles para que podamos ayudarte mejor.", "Entendemos tu frustración y queremos resolver el problema. Cuéntanos más sobre tu reclamo.", "Nuestro gerente estará encantado de hablar contigo. ¿Puedes proporcionarnos más información?"]
+    },
+    {
+      "etiqueta": "despedida",
+      "patrones": ["Adiós", "Hasta luego", "Nos vemos"],
+      "respuestas": ["¡Hasta luego!", "Fue un placer ayudarte. ¡Que tengas un buen día!", "Nos vemos la próxima vez."]
+    },
+    {
+      "etiqueta": "agradecimiento",
+      "patrones": ["Gracias", "Muchas gracias", "Te agradezco"],
+      "respuestas": ["De nada. Si necesitas algo más, aquí estoy.", "¡No hay de qué! Estoy aquí para ayudarte.", "Es un placer poder asistirte. ¡Gracias a ti!"]
+    },
+    {
+      "etiqueta": "atencion_usuario",
+      "patrones": ["¿En qué puedo ayudarte?", "¿Cómo puedo asistirte?", "¿Necesitas algo?"],
+      "respuestas": ["Estoy aquí para ayudarte en lo que necesites. ¿En qué puedo asistirte?", "Estoy a tu disposición para responder tus preguntas o ayudarte con cualquier solicitud."]
+    },
+    {
+      "etiqueta": "solicitud_servicios",
+      "patrones": ["¿Qué servicios ofrecen?", "¿Cuáles son los servicios disponibles?", "Quiero conocer los servicios que brindan"],
+      "respuestas": ["Ofrecemos una amplia gama de servicios, como...", "Tenemos diversos servicios a disposición de nuestros clientes. Algunos de ellos incluyen...", "Nuestros servicios abarcan desde... hasta..."]
+    },
+    {
+      "etiqueta": "solicitud_productos",
+      "patrones": ["¿Puedo solicitar productos?", "¿Cómo puedo pedir productos?", "Quiero hacer un pedido de productos"],
+      "respuestas": ["¡Claro! Puedes solicitar nuestros productos de la siguiente manera...", "Para hacer un pedido de productos, puedes...", "Estamos encantados de tomar tu pedido de productos. Por favor, proporciona los detalles del producto que deseas."]
+    },
+    {
+      "etiqueta": "opciones_chatbot",
+      "patrones": ["¿Qué puedes hacer?", "¿Cuáles son tus funciones?", "Opciones del chatbot"],
+      "respuestas": ["Soy un chatbot diseñado para ayudarte en diversas tareas. Algunas de las cosas que puedo hacer son responder preguntas, proporcionar información sobre nuestros productos y servicios, mostrar el menú del día, atender reclamos y mucho más. ¡No dudes en preguntarme lo que necesites!"]
+    }
+  ]
+}
